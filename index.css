@@ -11,18 +11,64 @@ body{
 .logoimg{
     width: 100px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .navbar{
     background-color: azure;
-}
-.search{
-    height: 40px;
-    width: 100%;
 }
 .food{
     margin-top: 5%;
 }
 .food img{
     width: 100%;
+}
+.card{
+    box-shadow: 3px 3px 5px rgb(107, 103, 103);
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(66, 62, 62);
+}
+.off{
+    position: absolute;
+    z-index: 1;
+    margin-left: 60%;
+    margin-bottom: 20%;
+
+}
+.off input{
+    width: 80%;
+    height: 5%;
+    box-shadow: 2px 2px 5px rgb(126, 116, 116);
+    margin-bottom: 2%;
+    border-radius: 20px;
+    text-align: center;
+}
+.off a{
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sign{
+    margin-bottom: 20px;
+}
+.off h5{
+    font-weight: bolder;
+}
+.off .login{
+    margin-top: 15px;
+}
+.footerul ul li{
+     list-style: none;
+
+}
+.footerul ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: azure;
+}
+.footerul ul{
+    margin-top: 50px;
 }
