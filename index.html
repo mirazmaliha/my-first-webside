@@ -9,9 +9,27 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <div class="off ">
+    <a class="btn btn-primary login" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  Log in
+</a>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Log in</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <input type="email" placeholder="email">
+    <input type="password" placeholder="password"><br>
+    <a href="#">Forgate password</a>
+    <a href="#" class="btn btn-primary sign">Sign up</a>
+  </div>
+</div>
+  </div>
     <nav class="container navbar navbar-expand-md navbar-light ">
       <div class="container-fluid">
-          <img src="lgo.jpg" alt="" class="logoimg">
+          <img src="logopanda2.jpg" alt="" class="logoimg">
           <a href="#" class="navbar-brand">PANDA</a>
         <button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#navbarid">
           <span class="navbar-toggler-icon"></span>
@@ -38,15 +56,16 @@
         </div>
       </div>
       <div class="searcharea d-flex">
-        <input type="search" placeholder="Search" class="form-control me-3 search">
+        <input type="search" placeholder="Search" class="searchinput form-control w-100 me-4">
         <button class="btn btn-outline-primary">search</button>
       </div>
     </nav>
     
     <section class="container food my-5">
+      <h1 class="text-black fw-bolder fs-2">FOOD</h1>
   <div class="row g-4">
     <!-- Card 1 -->
-    <div class="col-sm-4">
+    <div class="col-sm-3">
       <div class="card h-100">
         <div class="card-header p-0">
           <img src="food1.jpg" alt="Delicious Food" class="img-fluid w-100">
@@ -66,7 +85,7 @@
     </div>
 
     <!-- Card 2 -->
-    <div class="col-sm-4">
+    <div class="col-sm-3">
       <div class="card h-100">
         <div class="card-header p-0">
           <img src="food1.jpg" alt="Delicious Food" class="img-fluid w-100">
@@ -86,7 +105,26 @@
     </div>
 
     <!-- Card 3 -->
-    <div class="col-sm-4">
+    <div class="col-sm-3">
+      <div class="card h-100">
+        <div class="card-header p-0">
+          <img src="food1.jpg" alt="Delicious Food" class="img-fluid w-100">
+        </div>
+        <div class="card-body text-center">
+          <h2 class="card-title">Food</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <p>
+            <span class="text-success fw-bolder fs-3">$20</span>
+          </p>
+          <div class="d-flex justify-content-center">
+            <a href="#" class="btn btn-primary">Add to cart</a>
+            <a href="#" class="btn btn-primary ms-3">Buy now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-sm-3">
       <div class="card h-100">
         <div class="card-header p-0">
           <img src="food1.jpg" alt="Delicious Food" class="img-fluid w-100">
@@ -106,6 +144,177 @@
     </div>
   </div>
 </section>
-
+<section class="container">
+  <h1 class="text-black fw-bolder fs-2">BACK-PACK</h1>
+  <div class="row">
+    <div class="col-sm-3 mb-5">
+      <div class="card h-100">
+          <div class="card-dialog">
+            <div class="card-content">
+              <div class="card-header p-0">
+                <img src="food1.jpg" alt="" class="w-100">
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title d-flex justify-content-center">backpack</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <p class="text-success fw-bolder text-center">10$</p>
+                <span class="d-flex justify-content-center">
+                  <p><a href="#" class="btn btn-primary">Add to chart</a></p><p><a href="#" class="btn btn-primary ms-3">Add to chart</a></p>
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-5">
+      <div class="card h-100">
+          <div class="card-dialog">
+            <div class="card-content">
+              <div class="card-header p-0">
+                <img src="food1.jpg" alt="" class="w-100">
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title d-flex justify-content-center">backpack</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <p class="text-success fw-bolder text-center">10$</p>
+                <span class="d-flex justify-content-center">
+                  <p><a href="#" class="btn btn-primary">Add to chart</a></p><p><a href="#" class="btn btn-primary ms-3">Add to chart</a></p>
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-5">
+      <div class="card h-100">
+          <div class="card-dialog">
+            <div class="card-content">
+              <div class="card-header p-0">
+                <img src="food1.jpg" alt="" class="w-100">
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title d-flex justify-content-center">backpack</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <p class="text-success fw-bolder text-center">10$</p>
+                <span class="d-flex justify-content-center">
+                  <p><a href="#" class="btn btn-primary">Add to chart</a></p><p><a href="#" class="btn btn-primary ms-3">Add to chart</a></p>
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-5">
+      <div class="card h-100">
+          <div class="card-dialog">
+            <div class="card-content">
+              <div class="card-header p-0">
+                <img src="food1.jpg" alt="" class="w-100">
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title d-flex justify-content-center">backpack</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <p class="text-success fw-bolder text-center">10$</p>
+                <span class="d-flex justify-content-center">
+                  <p><a href="#" class="btn btn-primary">Add to chart</a></p><p><a href="#" class="btn btn-primary ms-3">Add to chart</a></p>
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-5">
+      <div class="card h-100">
+          <div class="card-dialog">
+            <div class="card-content">
+              <div class="card-header p-0">
+                <img src="food1.jpg" alt="" class="w-100">
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title d-flex justify-content-center">backpack</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <p class="text-success fw-bolder text-center">10$</p>
+                <span class="d-flex justify-content-center">
+                  <p><a href="#" class="btn btn-primary">Add to chart</a></p><p><a href="#" class="btn btn-primary ms-3">Add to chart</a></p>
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-5">
+      <div class="card h-100">
+          <div class="card-dialog">
+            <div class="card-content">
+              <div class="card-header p-0">
+                <img src="food1.jpg" alt="" class="w-100">
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title d-flex justify-content-center">backpack</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <p class="text-success fw-bolder text-center">10$</p>
+                <span class="d-flex justify-content-center">
+                  <p><a href="#" class="btn btn-primary">Add to chart</a></p><p><a href="#" class="btn btn-primary ms-3">Add to chart</a></p>
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-5">
+      <div class="card h-100">
+          <div class="card-dialog">
+            <div class="card-content">
+              <div class="card-header p-0">
+                <img src="food1.jpg" alt="" class="w-100">
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title d-flex justify-content-center">backpack</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <p class="text-success fw-bolder text-center">10$</p>
+                <span class="d-flex justify-content-center">
+                  <p><a href="#" class="btn btn-primary">Add to chart</a></p><p><a href="#" class="btn btn-primary ms-3">Add to chart</a></p>
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-5">
+      <div class="card h-100">
+          <div class="card-dialog">
+            <div class="card-content">
+              <div class="card-header p-0">
+                <img src="food1.jpg" alt="" class="w-100">
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title d-flex justify-content-center">backpack</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <p class="text-success fw-bolder text-center">10$</p>
+                <span class="d-flex justify-content-center">
+                  <p><a href="#" class="btn btn-primary">Add to chart</a></p><p><a href="#" class="btn btn-primary ms-3">Add to chart</a></p>
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="footer">
+  <div class="footerul justify-content-center d-flex ">
+    <ul>
+      <li>
+        <a href="#">Facebook</a>
+      </li>
+      <li>
+        <a href="#">Instagram</a>
+      </li>
+      <li>
+        <a href="#">Youtube</a>
+      </li>
+    </ul>
+  </div>
+</section>
 </body>
 </html>
