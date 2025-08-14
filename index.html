@@ -9,50 +9,103 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container-fluid">
-          <a href="#" class="navbar-brand">MIRAZ</a>
-          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarid">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar navbar-collapse" id="navbarid">
-            <ul class="navbar-nav ">
-               <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-               <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-               <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
-               <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
-               <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Hire</a>
-                <ul class="dropdown-menu">
-                    <li><a href="#" class="dropdown-item">FRONTEND</a></li>
-                    <li><a href="#" class="dropdown-item">FULL-STACK</a></li>
-                    <li><a href="#" class="dropdown-item">BACKEND</a></li>
-                </ul>
+    <nav class="container navbar navbar-expand-md navbar-light ">
+      <div class="container-fluid">
+          <img src="lgo.jpg" alt="" class="logoimg">
+          <a href="#" class="navbar-brand">PANDA</a>
+        <button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#navbarid">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarid">
+           <ul class="navbar-nav">
+             <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+             <li class="nav-item dropdown"><a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown">Prodact</a>
+             <ul class="dropdown-menu">
+              <li><a href="#" class="dropdown-item">FATION</a></li>
+              <li><a href="#" class="dropdown-item">FOOD</a></li>
+              <li><a href="#" class="dropdown-item">ELECTRICS</a></li>
+             </ul>
             </li>
-            </ul>
-          </div>
-         <div class="searchbox d-flex">
-             <input type="search" class="form-control" placeholder="search">
-             <button class="btn btn-outline-primary">Search</button>
-         </div>
+             <li class="nav-item"><a href="#" class="nav-link active">Service</a></li>
+             <li class="nav-item dropdown"><a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown">Contact</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Email</a></li>
+                <li><a href="#" class="dropdown-item">Phone</a></li>
+                <li><a href="#" class="dropdown-item">Whats-app</a></li>
+              </ul>
+            </li>
+           </ul>
         </div>
+      </div>
+      <div class="searcharea d-flex">
+        <input type="search" placeholder="Search" class="form-control me-3 search">
+        <button class="btn btn-outline-primary">search</button>
+      </div>
     </nav>
-    <section class="d-flex contain">
-        <div class=" container image-box">
-           <a href="#"> <img src="miraz.png" alt=""></a>
+    
+    <section class="container food my-5">
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-sm-4">
+      <div class="card h-100">
+        <div class="card-header p-0">
+          <img src="food1.jpg" alt="Delicious Food" class="img-fluid w-100">
         </div>
-        <div class="name">
-            <h1 class="fw-bolder text-light">HI !</h1>
-            <h1 class="fw-bolder text-light">I AM <span class="text-danger">MIRAZ</span></h1>
-            <H2 class="fw-bolder text-primary">AS A DEVELOPER</H2>
+        <div class="card-body text-center">
+          <h2 class="card-title">Food</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <p>
+            <span class="text-success fw-bolder fs-3">$20</span>
+          </p>
+          <div class="d-flex justify-content-center">
+            <a href="#" class="btn btn-primary">Add to cart</a>
+            <a href="#" class="btn btn-primary ms-3">Buy now</a>
+          </div>
         </div>
-    </section>
-    <section class=" container skillbox">
-        <div class="skill"><h1>FRONTEND</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, repudiandae?</p></div>
-         <div class="skill"><h1>BACKEND</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, repudiandae?</p></div>
-         <div class="skill"><h1>FULLSTACK</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, repudiandae?</p></div>
-    </section>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-sm-4">
+      <div class="card h-100">
+        <div class="card-header p-0">
+          <img src="food1.jpg" alt="Delicious Food" class="img-fluid w-100">
+        </div>
+        <div class="card-body text-center">
+          <h2 class="card-title">Food</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <p>
+            <span class="text-success fw-bolder fs-3">$20</span>
+          </p>
+          <div class="d-flex justify-content-center">
+            <a href="#" class="btn btn-primary">Add to cart</a>
+            <a href="#" class="btn btn-primary ms-3">Buy now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-sm-4">
+      <div class="card h-100">
+        <div class="card-header p-0">
+          <img src="food1.jpg" alt="Delicious Food" class="img-fluid w-100">
+        </div>
+        <div class="card-body text-center">
+          <h2 class="card-title">Food</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <p>
+            <span class="text-success fw-bolder fs-3">$20</span>
+          </p>
+          <div class="d-flex justify-content-center">
+            <a href="#" class="btn btn-primary">Add to cart</a>
+            <a href="#" class="btn btn-primary ms-3">Buy now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 </body>
 </html>
