@@ -7,13 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <div class="off ">
-    <a class="btn btn-primary login" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-  Log in
-</a>
-
+    
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasExampleLabel">Log in</h5>
@@ -27,39 +25,49 @@
   </div>
 </div>
   </div>
-    <nav class="container navbar navbar-expand-md navbar-light ">
-      <div class="container-fluid">
-          <img src="logopanda2.jpg" alt="" class="logoimg">
-          <a href="#" class="navbar-brand">PANDA</a>
-        <button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#navbarid">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarid">
-           <ul class="navbar-nav">
-             <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-             <li class="nav-item dropdown"><a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown">Prodact</a>
-             <ul class="dropdown-menu">
-              <li><a href="#" class="dropdown-item">FATION</a></li>
-              <li><a href="#" class="dropdown-item">FOOD</a></li>
-              <li><a href="#" class="dropdown-item">ELECTRICS</a></li>
-             </ul>
-            </li>
-             <li class="nav-item"><a href="#" class="nav-link active">Service</a></li>
-             <li class="nav-item dropdown"><a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown">Contact</a>
-              <ul class="dropdown-menu">
-                <li><a href="#" class="dropdown-item">Email</a></li>
-                <li><a href="#" class="dropdown-item">Phone</a></li>
-                <li><a href="#" class="dropdown-item">Whats-app</a></li>
-              </ul>
-            </li>
-           </ul>
-        </div>
-      </div>
-      <div class="searcharea d-flex">
-        <input type="search" placeholder="Search" class="searchinput form-control w-100 me-4">
-        <button class="btn btn-outline-primary">search</button>
-      </div>
-    </nav>
+  <div class="allnav">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <img class="navbar-brand" src="photo/logorrr.png">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  data-bs-toggle="offcanvas" href="#offcanvasExample">log in</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" >Contact us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Prodact
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item " href="#">FATION</a></li>
+            <li><a class="dropdown-item " href="#">ELECTRICS</a></li>
+            <li><hr class="dropdown-divider "></li>
+            <li><a class="dropdown-item" href="#">GAZETS</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Service</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  </div>
+  </div>
     
     <section class="container food my-5">
       <h1 class="text-black fw-bolder fs-2">FOOD</h1>
@@ -301,19 +309,35 @@
     </div>
   </div>
 </section>
-<section class="footer">
-  <div class="footerul justify-content-center d-flex ">
+<section class="footer p-0">
+  <div class="row">
+    <div class="footer1 col-md-4 p-0">
+    <div class="footerul justify-content-center d-flex ">
     <ul>
       <li>
-        <a href="#">Facebook</a>
+        <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
       </li>
       <li>
-        <a href="#">Instagram</a>
+        <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
       </li>
       <li>
-        <a href="#">Youtube</a>
+        <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
       </li>
     </ul>
+  </div>
+  </div>
+  <div class="footer2 col-md-8 p-0">
+    <ul>
+      <li><a href="#">  Bangladesh</a></li>
+      <li><a href="#">  Idiya</a></li>
+      <li><a href="#">  Pakisthan</a></li>
+      <li><a href="#">  Turkisthan</a></li>
+      <li><a href="#">  Brazil</a></li>
+      <li><a href="#">  Mayan-mar</a></li>
+      <li><a href="#">  pic</a></li>
+      <li><a href="#">  Nestra</a></li>
+    </ul>
+  </div>
   </div>
 </section>
 </body>

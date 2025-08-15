@@ -13,9 +13,7 @@ body{
     height: 50px;
     border-radius: 10%;
 }
-.navbar{
-    background-color: azure;
-}
+
 .food{
     margin-top: 5%;
 }
@@ -23,7 +21,8 @@ body{
     width: 100%;
 }
 .card{
-    box-shadow: 3px 3px 5px rgb(107, 103, 103);
+    
+    transition: all 0.2s 0.2s ease-in-out;
 }
 .footer{
     width: 100%;
@@ -71,4 +70,65 @@ body{
 }
 .footerul ul{
     margin-top: 50px;
+}
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 3px 3px 10px rgb(107, 103, 103);
+}
+nav a{
+    color: rgb(200, 204, 204) !important;
+    font-weight: bolder;
+}
+nav{
+    background-color: rgb(80, 75, 75);
+    
+}
+nav a:hover{
+    color: aliceblue !important;
+}
+.dropdown-menu li a{
+    color: black !important;
+    font-weight: bolder;
+}
+.navbar-brand{
+    width: 70px;
+    height: 60px;
+}
+.navbar-toggler-icon{
+    background-color: aliceblue;
+}
+.allnav{
+   
+     
+    background-color: rgb(80, 75, 75);
+}
+.footer{
+    width: 100%;
+    height:400px;
+    
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.footer2 ul li a{
+    color: rgb(192, 190, 190);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.footer2 ul li{
+    list-style: none;
+}
+.footer2 ul li a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+.footer1{
+    margin-top: 3%;
+}
+i{
+    margin-right: 10px;
+    box-shadow: 3px 3px 5px chartreuse;
 }
