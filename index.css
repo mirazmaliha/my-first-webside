@@ -39,19 +39,39 @@ body{
 .off input{
     width: 80%;
     height: 5%;
-    box-shadow: 2px 2px 5px rgb(126, 116, 116);
+    box-shadow: 4px 4px 10px #4d4949,  -4px -4px 10px #fff;
     margin-bottom: 2%;
     border-radius: 20px;
     text-align: center;
+    outline: none;
+    border: 0px solid;
+    background-color: rgb(226, 228, 228);
+    font-weight: bolder;
+    font-size: 17px;
+    margin-left: 6%;
 }
 .off a{
     text-decoration: none;
     font-weight: bolder;
-    margin-left: 20px;
+    display: flex;
     margin-top: 20px;
+   justify-content: end;
+   margin-right: 17%;
 }
 .sign{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+   margin-left: 9%;
+   outline: none;
+   border: 0px solid rgb(68, 67, 67);
+   padding: 9px 0px ;
+   color: rgb(242, 242, 245);
+   font-weight: bolder;
+   border-radius: 15px;
+   background-color: rgb(6, 131, 241);
+   box-shadow: 2px 2px 4px rgb(6, 131, 241);
 }
 .off h5{
     font-weight: bolder;
@@ -81,6 +101,7 @@ nav a{
 }
 nav{
     background-color: rgb(80, 75, 75);
+   
     
 }
 nav a:hover{
@@ -132,3 +153,26 @@ i{
     margin-right: 10px;
     box-shadow: 3px 3px 5px chartreuse;
 }
+.offcanvas{
+    background-color: rgb(228, 227, 230);
+}
+.loginheader{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 35px;
+   color: #181717;
+   padding: 5px 30px;
+   margin-left: 20%;
+   
+}
+@media (max-width: 576px) {
+  .card-body .d-flex {
+    flex-direction: column;
+  }
+  .card-body .btn {
+    width: 100%;
+    margin-bottom: 8px;
+  
+  }
+}
+
+
