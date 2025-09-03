@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>my list</h1>
+        <ul id="list">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+        <button id="add" style="padding: 10px 20px; background-color: chartreuse; color: rgb(30, 31, 32); font-weight:  bolder; border-radius: 10px;border: 1px;">add list</button>
+        <button id="delete" style="padding: 10px 20px; background-color: chartreuse; color: rgb(30, 31, 32); font-weight:  bolder; border-radius: 10px;border: 1px;">delete list</button>
+    </div>
+    <script>
+        var myList = document.getElementById('list').addEventListener('click', function(event){
+            event.target.parentNode.removeChild(event.target);
+        })
+        document.getElementById('add').addEventListener('click', function(event){
+            var addItem = document.getElementById('list');
+            var newItem = document.createElement('li');
+            newItem.innerText = 'add new item';
+            addItem.appendChild(newItem);
+        })
+    </script>
+</body>
+</html>
