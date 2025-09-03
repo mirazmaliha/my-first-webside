@@ -1,0 +1,42 @@
+body{
+   
+}
+.input-area{
+    box-shadow: 5px 5px 10px rgb(92, 91, 91);
+    padding: 3%;
+}
+.login-area{
+    margin-top: 10%;
+}
+#transaction-area{
+    display:none;
+    margin-top: 10%;
+}
+.status{
+    margin: 0px 20px;
+    padding: 25px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.status h5, h2{
+    font-size: 40px;
+    font-weight:bolder;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.deposit-area{
+    box-shadow: 5px 5px 10px rgb(116, 114, 114);
+    padding: 45px;
+    border-radius:10px ;
+}
+.deposit-area h4, button{
+    font-weight: bolder;
+    line-height: 70px;
+}

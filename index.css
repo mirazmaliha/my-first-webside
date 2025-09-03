@@ -6,7 +6,7 @@
 }
 body{
     
-   background-color: rgb(247, 245, 245); 
+   background-color: rgb(192, 186, 186); 
 }
 .logoimg{
     width: 100px;
@@ -174,6 +174,7 @@ i{
 .slider1{
     max-width: 600px;
     max-height: 200px;
+   
 }
 .carousel-inner img{
     width: 100%;
@@ -197,6 +198,13 @@ i{
 }
 .footerul ul li{
     border-bottom: 2px solid #7c7878;
+}
+.inputsearch{
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    color: darkblue;
 }
 
 
